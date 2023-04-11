@@ -7,34 +7,42 @@ import { Slide } from 'react-awesome-reveal';
 
 let clients = [
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 3,
+        name : "Quality Assurance",
+        position : "Software",
+        img_url : "https://as2.ftcdn.net/v2/jpg/04/69/75/93/1000_F_469759305_DL93J4CnktzLDkLuVTnDFBCm9WyPvAjw.jpg",
+        stars : "QA",
         disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 4,
+        name : "ReactJS",
+        position : "Web Developer",
+        img_url : "https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png",
+        stars : "ReactJS",
         disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
+        name : "React Native",
+        position : "Mobile Developer",
+        img_url : "https://i1.wp.com/blog.alexdevero.com/wp-content/uploads/2018/12/react-native-expo-how-to-build-your-first-mobile-app.jpg?fit=1024%2C635&ssl=1",
+        stars : "React Native",
         disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
+        name : "Hard Skills",
+        position : "*",
+        img_url : "https://elearningindustry.com/wp-content/uploads/2019/10/7-Benefits-That-Highlight-The-Importance-Of-Soft-Skills-In-The-Workplace.png",
+        stars : "Hard Skills",
+        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+    },
+    {
+        name : "Soft Skills",
+        position : "*",
+        img_url : "https://d19d5sz0wkl0lu.cloudfront.net/dims4/default/c5dc383/2147483647/resize/800x%3E/quality/90/?url=https%3A%2F%2Fatd-brightspot.s3.amazonaws.com%2F082316-leadership.jpg",
+        stars : "Soft Skills",
         disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
     },
@@ -83,8 +91,8 @@ const Clients = () => {
   return (
     <Container id='client'>
         <Slide direction="left">
-            <span className="green">testimonials</span>
-            <h1>what clients say</h1>
+            <span className="green">Skills</span>
+            <h1>check my solid skills</h1>
         </Slide>
         <Testimonials>
             <Slider ref={arrowRef} {...settings}>

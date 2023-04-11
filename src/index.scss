@@ -21,6 +21,9 @@ body{
   overflow-x: hidden;
   position: relative;
 }
+.chakra-ui-light{
+  color: #fff;
+}
 
 .green {
   color: #01be96;
@@ -86,3 +89,15 @@ body{
       opacity: 1;
   }
 }
+// .chakra-ui-light {
+//   all: initial;
+//   * {
+//     all: unset;
+//   }
+// }
+// .chakra-ui-light {
+//   // all:unset;
+//   * {
+//     // all: unset;
+//   }
+// }

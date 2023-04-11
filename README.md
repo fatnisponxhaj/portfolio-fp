@@ -39,7 +39,3 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 Create React App for the initial setup.
 EmailJS for the contact form submission functionality.
 Unsplash for the images used in this project.
-
-
-## Technologies 
-

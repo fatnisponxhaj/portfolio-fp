@@ -8,8 +8,8 @@ const Header = () => {
     <Container bar={bar}>
         <div className="header-nav">
         <Logo>
-            <span className='green'><Gi3DHammer/></span>
-            <h1><a href="#home">Fatnis Ponxhaj</a></h1>
+            <span className='green'><img alt="RL" src="https://res.cloudinary.com/randomlite/image/upload/v1681172609/IMG_9126_lsvkjh.jpg" height={30} style={{borderRadius:"50px",filter: "invert(1)"}}></img></span>
+            <h1><a href="#home">PORTFOLIO</a></h1>
         </Logo>
         <Nav bar={bar} onClick={() => setBar(!bar)}>
             <span><a href="#home" >Home</a></span>

@@ -161,7 +161,7 @@ const Social = styled.div`
 `;
 const Profile = styled.div`
   img {
-    width: 19rem;
+    width: 17rem;
     height:auto;
     filter: drop-shadow(0px 10px 10px #01be9570);
     transition: transform 400ms ease-in-out;
@@ -170,11 +170,12 @@ const Profile = styled.div`
     }
 
     @media (max-width: 660px) {
-      width: 13rem;
+      width: 15rem;
     }
 
     @media (max-width: 640px) {
       width: 15rem;
+      opacity:0.5;
     }
   }
 
