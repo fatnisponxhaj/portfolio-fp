@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-import { Gi3DHammer } from "react-icons/gi";
+// import { Gi3DHammer } from "react-icons/gi";
 
 const Header = () => {
     const [bar, setBar] = useState(false);

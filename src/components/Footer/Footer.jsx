@@ -141,7 +141,7 @@ const Footer = () => {
               <span>
                 <CgProfile />
               </span>
-              <input type="text" placeholder="Fullname..."
+              <input type="text" placeholder="Full Name"
                 name="name" 
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -151,7 +151,7 @@ const Footer = () => {
               <span>
                 <MdAlternateEmail />
               </span>
-              <input type="email" placeholder="Email..." 
+              <input type="email" placeholder="Email" 
                name="email"
                value={email}
                onChange={(e) => setEmail(e.target.value)}
@@ -161,7 +161,7 @@ const Footer = () => {
               <span className="messageIcon">
                 <FiMail />
               </span>
-              <textarea cols="30" rows="10" placeholder="Message..."
+              <textarea cols="30" rows="10" placeholder="Message"
               name="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
